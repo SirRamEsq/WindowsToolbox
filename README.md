@@ -1,10 +1,16 @@
 # WindowsToolbox
 A collections of tools and scripts to help administrate Windows Machines
 
-# Other useful Repos
+# Other Useful Links
+
+## Subreddits
+- https://www.reddit.com/r/usefulscripts
+- https://www.reddit.com/r/sysadmin/
+
 ## Tools
 ### Windows10 Debloater
 - https://github.com/Sycnex/Windows10Debloater
+
 ## Scripts
 ### CyberPhor
 #### scripts
