@@ -1,0 +1,20 @@
+#+TITLE: Outlook Hidden Office365rules
+- Author, Alyssa Rayon
+
+This is a common hacker tool, almost always beginning with a user clicking on phish bait.
+Typically the emails will be marked as read and sent to the users' RSS Feed folder.
+
+You may be able to find the rule easily by following the steps outline in these articles:
+https://techsupport.foreverwarm.com/outlook-email-going-to-rss-folder
+https://techsupport.foreverwarm.com/emails-going-to-rss-feeds-folder
+
+However it is very common for hackers to create a hidden email rule, which cannot be found in the GUI.
+Follow each step in this article using the MFCMAPI tool to find the hidden rule and delete it:
+https://docs.microsoft.com/en-us/archive/blogs/hkong/how-to-delete-corrupted-hidden-inbox-rules-from-a-mailbox-using-mfcmapi
+
+NOTE: you can find a download here: https://www.majorgeeks.com/files/details/mfcmapi.html
+This is a legit tool, in case anything feels skeevy about it
+
+DO NOT run as an Admin or step 8 will not work.
+
+You may then have to follow the steps in KB "How to unblock O365 account"

@@ -1,0 +1,4 @@
+#+TITLE: KB
+
+* Outlook
+** [[./outlookHiddenOffice365Rules.org]] :malware:
