@@ -1,6 +1,8 @@
 # WindowsToolbox
 A collections of tools and scripts to help administrate Windows Machines
 
+[KB](./KB/KB.org)
+
 # Other Useful Links
 
 ## Subreddits
