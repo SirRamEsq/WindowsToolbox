@@ -1,0 +1,8 @@
+#+TITLE: Win10 Data Recovery
+
+If mounting an external HDD taken from an old machine running Windows, NTFS permissions will likely prevent the File Exporer from accessing its files.
+
+Most likely, you'll get an error on entering the user folder "you currently don't have permission to access this folder"
+The common wisdom is to modify the filesystem permissions and hope nothing breaks. This is stupid.
+
+File Explorer is total garbage and cannot be run as admin. To explore filesystems properly, install Total Commander and run it as admin.

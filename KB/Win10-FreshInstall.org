@@ -1,0 +1,24 @@
+#+TITLE: Win10 Fresh Install
+
+**DO NOT CONNECT TO THE INTERNET DURING SETUP / INSTALL**
+
+On creating a clean install on Windows follow these steps:
+- Go into Windows services and disable Windows Update Service
+- Create a system restore point named "Fresh Install - Windows update services disabled" or similar
+- Connect to the internet
+- Setup the taskbar
+  - Don't collapse items
+  - Remove search, weather, news, cortana
+  - Unpin crap
+- Install
+  - Office
+  - Chrome
+  - TeamViewer
+  - Zoom
+  - Email Access
+  - 7z
+- Optionally tie the computer in with ms account
+- Set PC Name
+- Reboot
+- New restore point
+- Optionally turn on Windows update service again
