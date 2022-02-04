@@ -1,3 +1,8 @@
 #+TITLE: Win11 Taskbar
 
 https://www.askvg.com/tip-restore-windows-10-classic-taskbar-in-windows-11-along-with-classic-start-menu/#method_1_automatically_restore_classic_taskbar_in_windows_11
+
+Also see
+https://winaero.com/
+and
+https://open-shell.github.io/Open-Shell-Menu/
