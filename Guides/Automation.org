@@ -1,0 +1,11 @@
+#+TITLE: Automation
+https://www.foxdeploy.com/blog/progressive-automation-part-i.html
+
+You should always start your automation by finding the biggest pain points or wastes of time and starting there.  Ideal cases are things that:
+
+- Require your specific manual intervention (+3 points)
+- Have to happen in an off hour or over the weekend (+5 points)
+- Are hard to do, or repetitive  (+5 points)
+- Have a nasty penalty if you get them wrong (+6 points)
+
+Add them up and if you’re over 6 automate it

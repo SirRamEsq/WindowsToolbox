@@ -1,0 +1,13 @@
+#+TITLE: Reg Uninstall Locations
+
+* Win10
+Default Uninstall location
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+
+32-bit software on 64-bit machine location
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall
+
+Per user installation location
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall
+** See Also
+https://iamsupergeek.com/software-uninstalls-how-i-do-it/

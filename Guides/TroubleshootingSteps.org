@@ -1,0 +1,164 @@
+#+TITLE: Troubleshooting Steps
+
+* The 10 step Universal Troubleshooting Process
+http://www.troubleshooters.com/tuni.htm#_The_10_step_Universal_Troubleshooting
+** 01. Prepare
+*Don't try to solve the problem yet*
+*Focs on getting in the right headspace*
+In troubleshooting, as in any other human endeavor, you must have the right attitude to succeed.
+You CAN solve it. It's not magic -- there's always an explanation. Don't try to fix it, just try to narrow it down.
+Don't panic. Don't get mad. Be patient and don't skip steps.
+Practice teamwork. When you get in a bind, just ask yourself "how can I narrow it down one more time?".
+Or in a bind, devise a distinction-finding matrix involving "is" and "is not" questions in the realm of "who", "which/what", "where", "when", and "to what extent".
+
+The best way to get and maintain the attitude is to remember that it is a mathematical certainty that you will solve any reproducible problem in a system for which you have knowledge or system documentation.
+Above all, remember that your troubleshooting power comes from your troubleshooting process.
+
+** 02. Make damage control plan
+*Don't try to solve the problem yet*
+*Focus on preventing further damage*
+- Could be step 2,3,4
+- Protect data, back it up
+- Protect Hardware
+  - Don't brick something if you can help it
+** 03. Get a complete and accurate symptom description
+*Don't try to solve the problem yet*
+*Focus on understanding what the symptoms are*
+*** User/Invoice Questions:
+- Today's Date?
+- Your Name?
+- Your Contact Info (email, phone, US mail)?
+- Your relationship to the equipment/system (user, owner, both, neither(reporting for others))
+- If you're not the user, who is? Please give his or her contact information.
+*** Equipment/System Questions:
+- Make?
+- Model?
+- Age?
+- Configuration?
+- Peripheral equipment?
+- Operating system if, relevant?
+*** General Symptom Questions:
+- What indicates to you that there is a problem?
+- Describe any error messages, indicator lights, other machine information.
+*** Reproducibility Questions:
+- Is there a procedure to CONSISTENTLY reproduce the symptom?
+  - If the answer is YES, the problem is said to be *reproducible*.
+  - If the answer is NO, the problem is said to be *intermittent*.
+**** If Reproducible:
+- Please describe the procedure you use to reproduce the symptom?
+- Do you know how to make the symptom go away?
+  - If so, how do you make it go away?
+**** If intermittent:
+- How often does it seem to happen?
+- What seems to make it more frequent?
+- What seems to make it less frequent?
+- What seems to make it (temporarily) go away?
+*** Other, possibly related symptoms:
+- Describe other symptoms or oddities have you noticed.
+- What other machines, components or software might be involved?
+- Did these symptoms or oddities appear around the same time?
+- Were any other machines, components or software added around the same time?
+*** First occurrence questions
+- When did it start happening?
+- What else happened around that time?
+- Any installations or configuration changes done around that time?
+*** Distinction questions (who, which/what, where, when, to what extent)
+Can be helpful in narrowing it down
+Distinction questions are double edged questions involving "is" and "is not", typically in the realms of "who", "which/what", "where", "when", and "to what extent".
+By developing a matrix of what is and what isn't, you can gain more focus on your hypotheses, hopefully arriving at a quicker solution.
+- Who has observed these symptoms, and who hasn't?
+- Which systems have these symptoms, and which don't?
+- Which subsystems malfunction, and which do not?
+- In what locations has this occurred and not occurred?
+- When did it occur, and when did it not?
+- How quickly does the symptom show after power up?
+- At what system age did the symptom occur, and at what age did it not?
+- How massive is the failure, and how massive or minor could it have been?
+*** How to Handle Assumptions and Speculation
+An incorrect assumption leads later to circular troubleshooting, confusion, and long Mean Time To Repair.
+Your job is to avoid incorrect assumptions getting into the symptom description.
+
+And yet, both you and the user often have "gut feelings" that can dramatically reduce repair time.
+Yes, even the user.
+The user has spent more time with the system than anyone else, so it's a mistake to ignore user speculation.
+As a matter of fact, several of the questions on this page asked for user assumptions or speculation.
+
+So, in order to record your and the user's speculations without allowing a bad assumption into the symptom description,
+in the symptom description you need to label assumptions and speculation as such:
+- Right: DNS works on Internet, often fails on the local network I SUSPECT the ARP system.
+- Wrong: ARP system bad.
+- Wrong: Check ARP
+Or:
+- Right: Customer says the computer plays all Youtube videos with the sound reversed but the video going the correct direction.
+- Wrong: The computer plays all Youtube videos with the sound reversed but the video going the correct direction.
+- Wrong: <Not mention the user's crazy statement>
+- Wrong: The customer is nuts.
+
+The bottom line is this: The quality of the symptom description can an order of magnitude difference in repair time,
+especially when the person acquiring the symptom is different from the person performing the repair.
+
+** 04. Reproduce the symptom
+*Don't try to solve the problem yet*
+*Focus on making the symptom occur on command*
+You can't fix what you can't see!
+If you haven't reproduced the problem, you can't toggle it on and off to narrow the scope and to determine the quality of the fix.
+Reproducing the problem prevents unfair accusations that you made the problem worse.
+** 05. Do the appropriate corrective maintenance
+*Don't try to solve the problem yet*
+*Focus on simple steps that generally help the PC*
+We've all felt stupid after spending hours narrowing the problem down to something that should have been corrective maintenance.
+The trick is to determine what is appropriate corrective maintenance.
+A specific action is appropriate corrective maintenance if:
+- Company policy is that the action must be taken before returning to the customer.
+- It's likely to cause the problem, easy to do, and is a maintenance item.
+- It's a possible cause, a not too difficult maintenance item, and the problem is intermittent.
+
+Note that corrective maintenance is one of the few weapons we have against that scourge of troubleshooters, the intermittent problem.
+Often the only economical solution is to do all corrective maintenance,
+then tell the customer it might be fixed and to observe it for a time.
+
+Examples:
+- Has the device showing symptoms been rebooted?
+- Updates applied?
+- Try running SFC
+** 06. Narrow it down to the root cause
+*Don't try to solve the problem yet*
+*Focus on narrowing it down*
+Mathematics tells us the fastest way to find a single element in an ordered set is binary search.
+Binary search is the process of repeatedly ruling out half the remaining search area until the element is found.
+This technique really shows its power in systems of several hundred thousand components.
+For instance, binary search could find a single component in a system of 1,048,576 components (a moderate sized automated system) using only 20 tests.
+
+Implicit in all this is that if you keep narrowing it down, whether binary or not,
+as long as you don't repeatedly double back in areas you've already tested,
+it is a *MATHEMATICAL CERTAINTY* you'll eventually solve the problem.
+Remembering this is important, it will keep you from being discouraged
+
+Examples:
+- Wrong
+  - It's plain to see it's a virus!
+- Wrong
+  - I've spent four days, tried everything I can think of, and it's still messed up!
+- Wrong
+  - 6/17: Replaced the thermostat and that didn't fix it.
+  - 6/19: Replaced the radiator and that didn't fix it.
+  - 6/22: Replaced the water pump and that didn't fix it.
+  - 6/25: Replaced the heater core and that didn't fix it.
+  - 6/28: Replaced the radiator hoses. That fixed it!
+  - Boy, I sure charged a lot of money!
+- Right
+  - xxx ruled out by test 1
+  - xxx ruled out by test 2
+  - test 3 presented such-and-such results indicating it may be xxx
+
+Keep repeating: "How can I narrow it down just one more time?"
+*** Limitations
+**** Intermittence:
+Intermittence invalidates most tests which could split the search area, resulting in backtracking.
+It thus renders binary search a useful but insufficient tool for troubleshooting.
+Intermittence eliminates the mathematical certainty of solution -- indeed many intermittents remain unsolved.
+There are several techniques to maximize your chance of solving an intermittent.
+** 07. Repair or replace the defective component
+** 08. Test
+** 09. Take pride in your solution
+** 10. Prevent future occurrence of this problem

@@ -2,3 +2,5 @@
 
 * Outlook
 ** [[./outlookHiddenOffice365Rules.org]] :malware:
+* Registry
+** [[file:reg-UninstallLocations.org][./UninstallLocations]]
